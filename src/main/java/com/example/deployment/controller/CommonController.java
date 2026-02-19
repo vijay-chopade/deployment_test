@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/demo")
 public class CommonController {
 
+    public static String greet(String name) {
+        return "Hello, " + name;
+    }
+
     @GetMapping
     public String test(){
         return "Test Pass....";
