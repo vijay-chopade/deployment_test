@@ -15,6 +15,7 @@ class DeploymentApplicationTests {
 
 	@Test
 	void testGreet() {
+//		test me  k
 		assertEquals("Hello, Jenkins", CommonController.greet("Jenkins"));
 	}
 
